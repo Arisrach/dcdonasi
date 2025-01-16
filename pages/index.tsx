@@ -4,7 +4,7 @@ import Card from '../components/Card';
 
 const Home: React.FC = () => {
   return (
-    <div className="w-full p-5">
+    <div className="w-full p-5 overflow-hidden">
       <div className="flex items-center justify-center bg-stone-950">
       <Card
         title="Donasi"
