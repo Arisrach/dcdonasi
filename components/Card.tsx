@@ -39,12 +39,12 @@ export default function Card({ title, description, imageUrl }: CardProps) {
           <div className="text-left font-bold">Terkumpul</div>
           <div className="text-right font-bold">Donatur</div>
           <div className="text-left text-stone-400">Rp. 0,-</div>
-          <div className="text-right text-stone-400">1</div>
+          <div className="text-right text-stone-400">0</div>
         </div>
 
         {/* Progress bar */}
         <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 mt-2">
-          <div className="bg-yellow-300 h-2.5 rounded-full" style={{ width: '45%' }}></div>
+          <div className="bg-yellow-300 h-2.5 rounded-full" style={{ width: '1%' }}></div>
         </div>
 
         {/* Tombol Donasi */}
