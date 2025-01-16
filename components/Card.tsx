@@ -39,7 +39,7 @@ export default function Card({ title, description, imageUrl }: CardProps) {
           <div className="text-left font-bold">Terkumpul</div>
           <div className="text-right font-bold">Donatur</div>
           <div className="text-left text-stone-400">Rp. 950.000,-</div>
-          <div className="text-right text-stone-400">2</div>
+          <div className="text-right text-stone-400">3</div>
         </div>
 
         {/* Progress bar */}
