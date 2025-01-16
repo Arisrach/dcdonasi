@@ -1,0 +1,44 @@
+/* styles/Home.module.css */
+
+/* Styling untuk halaman utama */
+.container {
+    font-family: 'Arial', sans-serif;
+    background-color: #0c0a09;
+    /* padding: 20px; */
+  }
+  
+  /* Styling untuk teks informasi */
+  .heading {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  .paragraph {
+    color: #555;
+    font-size: 1.2rem;
+  }
+  
+  
+  /* Styling untuk komponen progress bar */
+  .progressContainer {
+    margin-top: 20px;
+  }
+  
+  .progressBar {
+    background-color: #4CAF50;
+    height: 30px;
+    border-radius: 25px;
+    width: 100%; /* Default width 100%, akan diubah dinamis */
+  }
+  
+  .infoContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .infoText {
+    font-size: 16px;
+    color: #333;
+  }
+  
