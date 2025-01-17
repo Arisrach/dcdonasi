@@ -38,13 +38,13 @@ export default function Card({ title, description, imageUrl }: CardProps) {
         <div className="grid grid-cols-2 pt-10">
           <div className="text-left font-bold">Terkumpul</div>
           <div className="text-right font-bold">Donatur</div>
-          <div className="text-left text-stone-400">Rp. 1.450.000,-</div>
-          <div className="text-right text-stone-400">4</div>
+          <div className="text-left text-stone-400">Rp. 3.600.000,-</div>
+          <div className="text-right text-stone-400">8</div>
         </div>
 
         {/* Progress bar */}
         <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 mt-2">
-          <div className="bg-yellow-300 h-2.5 rounded-full" style={{ width: '20.5%' }}></div>
+          <div className="bg-yellow-300 h-2.5 rounded-full" style={{ width: '40%' }}></div>
         </div>
 
         {/* Tombol Donasi */}
