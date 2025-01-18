@@ -44,7 +44,7 @@ export default function Card({ title, description, imageUrl }: CardProps) {
 
         {/* Progress bar */}
         <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 mt-2">
-          <div className="bg-yellow-300 h-2.5 rounded-full" style={{ width: '40%' }}></div>
+          <div className="bg-yellow-300 h-2.5 rounded-full" style={{ width: '50%' }}></div>
         </div>
 
         {/* Tombol Donasi */}
