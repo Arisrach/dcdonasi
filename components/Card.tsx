@@ -44,15 +44,16 @@ export default function Card({ title, description, imageUrl }: CardProps) {
 
         {/* Progress bar */}
         <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 mt-2">
-          <div className="bg-yellow-300 h-2.5 rounded-full" style={{ width: '100%%' }}></div>
+          <div className="bg-green-500 h-2.5 rounded-full" style={{ width: '100%%' }}></div>
         </div>
 
         {/* Tombol Donasi */}
         <button
-          className="justify-center rounded-3xl w-full bg-yellow-300 p-5 text-black font-bold mt-5"
-          onClick={togglePopup} // Menambahkan event klik untuk membuka popup
+          className="justify-center rounded-3xl w-full bg-green-500 p-5 text-black font-bold mt-5"
+          // onClick={togglePopup} 
+          // Menambahkan event klik untuk membuka popup
         >
-          Donasi
+          Donasi Terpenuhi
         </button>
 
         {/* Popup Modal */}
