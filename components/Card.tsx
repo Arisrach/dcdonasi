@@ -108,7 +108,7 @@ export default function Card({ title, description, imageUrl }: CardProps) {
         <div className="grid grid-cols-4 gap-4 text-left mb-5">
           <div className='col-span-3'>
             <p className="text-stone-300 text-sm">Terkumpul</p>
-            <p><span  className="text-yellow-400 font-bold text-lg">Rp.0</span> Dari Rp 10.000.000</p>
+            <p><span  className="text-yellow-400 font-bold text-lg">Rp.0</span> Dari Rp 9.000.000</p>
           </div>
           <div>
             <p className="text-stone-300 text-sm text-right">Donatur</p>
