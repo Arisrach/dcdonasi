@@ -7,8 +7,8 @@ const Home: React.FC = () => {
     <div className="w-full p-5 overflow-hidden">
       <div className="flex items-center justify-center bg-stone-950">
       <Card
-        title="Donasi"
-        description="Pembelian AC Daarul Barokah (Discovery Barat)"
+        title="Musholah kita sedang mengadakan penggalangan dana untuk membeli barang-barang yang sangat diperlukan guna meningkatkan kenyamanan dan fasilitas tempat ibadah."
+        description="List barang yang akan di beli :"
         imageUrl="../image/bgdbarat.jpg"
       />
     </div>
