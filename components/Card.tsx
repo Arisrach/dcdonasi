@@ -8,12 +8,12 @@ interface CardProps {
 }
 const cardData = [
   { title: "Karpet",
-     imageUrl: "/image/adornment.png" ,
+     imagedUrl: "/image/adornment.png" ,
      subtext: "Rp. 7 jt",
      bgColor: "bg-yellow-400", // Warna latar
     },
   { title: "Jam Digital",
-     imageUrl: "/image/digital-clock.png",
+     imagedUrl: "/image/digital-clock.png",
      subtext: "Rp. 2 jt",
      bgColor: "bg-red-500", // Warna latar
      },
@@ -79,7 +79,7 @@ export default function Card({ title, description, imageUrl }: CardProps) {
           >
              {/* Gambar */}
             <img
-              src={card.imageUrl}
+              src={card.imagedUrl}
               alt={card.title}
               className="w-15 h-16 object-cover rounded-lg mr-4"
             />
